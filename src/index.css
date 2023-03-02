@@ -5,9 +5,64 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-image: url("background.jpg"); */
+  background-color: #0FF;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.title {
+  font-style: italic;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.result {
+  text-align: center;
+  font-weight: bold;
+  font-size: 200%;
+  width: 200px;
+}
+
+.rrect {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px;
+  width: 650px;
+  position: relative;
+}
+
+.score {
+  font-size: 300%;
+}
+
+.reset {
+  font-weight: bold;
+  font-size: 300%;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px #73AD21;
+  box-sizing: 10px;
 }
